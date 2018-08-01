@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "322179298041",
+    "project_id": "hcoeapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322179298041:android:185e4102004c83d9",
+        "android_client_info": {
+          "package_name": "com.easyway2in.mysqldbdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw4ADQiqJOBjbk0q5Bbw4jYncyJ8EWny8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

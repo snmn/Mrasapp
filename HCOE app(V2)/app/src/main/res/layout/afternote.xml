@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="call hcoe"
+        android:id="@+id/call"
+        android:onClick="call"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="visit hcoe website"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/button5"
+        android:layout_alignLeft="@+id/call"
+        android:layout_alignStart="@+id/call"
+        android:layout_alignRight="@+id/call"
+        android:layout_alignEnd="@+id/call" />
+
+    <Button
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:text="log out "
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HCOE app notification page "
+        android:id="@+id/textView32"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="172dp"
+        android:src='@drawable/hcoe'
+        android:id="@+id/imageView4"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+
+</RelativeLayout>
