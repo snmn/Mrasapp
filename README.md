@@ -1,1 +1,1 @@
-# Mrasapp
+MRAS is termed as MEDICAL REPORT ANALYSIS SYSTEM
